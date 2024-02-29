@@ -249,7 +249,7 @@ class My_Differential_System( Define_Differential_System ):
         self.par[ 3 ][ 4 ] = ell_0        
         
        
-        self.par[ 3 ][ 2 ] = self.par[ 1 ][ 6 ]**2.0
+        self.par[ 3 ][ 2 ] = self.par[ 1 ][ 6 ]**2.0 # This line eliminates resonance. If we want to find resonance, we comment this out
         
         
         return
